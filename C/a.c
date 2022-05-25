@@ -4,7 +4,7 @@
 #include <string.h>
 
 typedef struct node {
-	struct node* left;
+	struct node* left;	
 	char* word;
 	int count;
 	struct node* right;
